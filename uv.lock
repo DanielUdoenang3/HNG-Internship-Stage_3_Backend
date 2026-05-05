@@ -962,9 +962,9 @@ wheels = [
 ]
 
 [[package]]
-name = "stage-2"
+name = "stage-3"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "aiosmtplib" },
     { name = "alembic" },
